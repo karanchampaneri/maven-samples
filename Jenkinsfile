@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('check out') {
       steps {
-        git(url: 'https://github.com/karanchampaneri/maven-samples.git', branch: 'master')
+        git(url: 'https://github.com/karanchampaneri/maven-samples.git', branch: 'q2-blueocean')
       }
     }
 
